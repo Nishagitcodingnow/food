@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foodie Finesse Blogger</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Food</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="piza.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Pizza, A Real NYC Classic</h3>
+      <p> Flour, tomato ketchup, tomato, onion, chili flakes, baking powder, sugar, virgin olive oil, cheese, 
+        mushroom, capsicum, oregano, mozzarella, yeast.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="shak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Shakes</h3>
+      <p> Ice cream, milk, flavour component, toppings, fruits .
+
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="cup.jpg" alt="Cherries" style="width:100%">
+      <h3>Cup Cakes</h3>
+      <p>Flour, white sugar, baking powder, salt, egg, milk, vegetable oil, flavour as u want.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="garlic.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Garlic Bread</h3>
+      <p>Butter, Cheese, garlic powder, dried parsley, Black Pepper, mozzarella cheese, bread, Chili Flakes</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="sala.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Salad</h3>
+      <p>Any Kind of vegetables, salt, black pepper, lemon juice.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="soup.jpg" alt="Salmon" style="width:100%">
+      <h3>Soup For Your Health</h3>
+      <p> Baby carrots, potatoes, onion, celery, beans, cabbage, tomatoes, green beans, chicken broth, vegetable stock, water, basil, sage, thyme, and salt.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="waffle.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Waffle, A Real Classic</h3>
+      <p>Egg, flour, milk, oil, sugar, baking powder, salt, vanilla, cooking spray, honey syrup.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="co.jpg" alt="Croissant" style="width:100%">
+      <h3>Coffee</h3>
+      <p>Instant Coffee Granules, milk, sugar, hot water, spoon, jar with tight fitting lid.  
+      </p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="food.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="food.html" class="w3-bar-item w3-hover-black w3-button">1</a>
+      <a href="food2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="food3.html" class="w3-bar-item w3-button w3-black">3</a>
+      <a href="food4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="food.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Girl</h3><br>
+    <img src="chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Meet Chef Sophia Carter, the creative mind and passionate foodie behind this blog. With a love for experimenting in the kitchen and a deep appreciation for flavors from around the world, Sophia transforms simple ingredients into mouthwatering dishes.
+         From comforting homemade classics to bold, innovative recipes, Sophia shares her love for cooking with easy-to-follow guides, pro tips, and personal stories. Whether you're a
+         beginner or a seasoned home chef, you’ll find endless inspiration to bring delicious meals to your table.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <!--<div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>-->
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="blog.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Explore The World</span><br>
+          <span>Travel With Me...</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="foof.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Foodie Finesse Blogger</span><br>
+          <span>The Tasty Journal</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+       <a href="food.html" target="_blank"> <span class="w3-tag w3-black w3-margin-bottom">Travel</span></a> <a href="dinner.html" target="_blank"><span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span></a>
+       <a href="fries.html" target="_blank"> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Snacks</span></a> <a href="drink.html" target="_blank"><span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span></a>
+       <a href="burger.html" target="_blank"> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Burgers</span></a> <a href="meal.html" target="_blank"> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tradional meals</span></a> <a href="coffee.html" target="_blank"> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Coffee</span></a>
+       <!-- <a href="chicken.html" target="_blank"> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> </a>-->
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
